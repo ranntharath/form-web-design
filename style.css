@@ -1,0 +1,20 @@
+.grid-con {
+  background-color: rgb(106, 160, 160);
+  display: grid;
+  width: 300px;
+  height: 200px;
+  align-items: ;
+  grid-template-columns: 100px 100px;
+}
+
+.grid-con > div {
+  border: solid;
+  text-align: center;
+  padding: 10px;
+  height: 20px;
+  background-color: tomato;
+}
+.box-1 {
+  align-self: center;
+}
+/* properties */
