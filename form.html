@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form k'jii k'cute</title>
+    <style>
+      form div {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <form action="#">
+        <div>
+          <label for="username">Username</label>
+          <input type="text" id="username" required placeholder="username" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            required
+            placeholder="password"
+          />
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+        <!-- radio -->
+        <div>
+          <label for="favorite">choose your favorite</label><br />
+          <label for="dek">Dek</label>
+          <input type="radio" name="favorite" id="dek" /><br />
+          <label for="still-dek">Still Dek</label>
+          <input type="radio" name="favorite" id="still-dek" /><br />
+          <label for="dekdek">Dek t'del ng</label>
+          <input type="radio" name="favorite" id="dekdek" /><br />
+        </div>
+
+        <!-- checkbox -->
+        <div>
+          <label for="check">choose multiple choice</label><br />
+          <label for="dek">Dek</label>
+          <input type="checkbox" name="favorite" id="dek" /><br />
+          <label for="still-dek">Still Dek</label>
+          <input type="checkbox" name="favorite" id="still-dek" /><br />
+          <label for="dekdek">Dek t'del ng</label>
+          <input type="checkbox" name="favorite" id="dekdek" /><br />
+        </div>
+
+        <!-- select option -->
+        <div>
+          <label for="pob">Place of birth</label>
+          <select name="pob" id="pob">
+            <option value="KPC">KPC</option>
+            <option value="KP">KP</option>
+            <option value="PP">PP</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="1"></textarea>
+          <button type="submit">confirm</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
